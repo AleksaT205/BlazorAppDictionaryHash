@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "biYXFPrSQ1g=",
+  "dgSpecHash": "bXRhy90sGIs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\MyDictionaryWasmApp.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\BlazorAppDictionaryHash\\Blazor\\MyDictionaryWasmApp\\MyDictionaryWasmApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.8\\microsoft.aspnetcore.authorization.9.0.8.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.8\\microsoft.aspnetcore.components.9.0.8.nupkg.sha512",

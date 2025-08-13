@@ -16,37 +16,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MyDictionaryWasmApp
 build_property.RootNamespace = MyDictionaryWasmApp
-build_property.ProjectDir = C:\Users\PC\Desktop\Blazor\MyDictionaryWasmApp\
+build_property.ProjectDir = C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\Blazor\MyDictionaryWasmApp
+build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/PC/Desktop/Blazor/MyDictionaryWasmApp/App.razor]
+[C:/Users/PC/Desktop/BlazorAppDictionaryHash/Blazor/MyDictionaryWasmApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Blazor/MyDictionaryWasmApp/Pages/Dictionary.razor]
+[C:/Users/PC/Desktop/BlazorAppDictionaryHash/Blazor/MyDictionaryWasmApp/Pages/Dictionary.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljdGlvbmFyeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Blazor/MyDictionaryWasmApp/Pages/Home.razor]
+[C:/Users/PC/Desktop/BlazorAppDictionaryHash/Blazor/MyDictionaryWasmApp/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Blazor/MyDictionaryWasmApp/_Imports.razor]
+[C:/Users/PC/Desktop/BlazorAppDictionaryHash/Blazor/MyDictionaryWasmApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Blazor/MyDictionaryWasmApp/Layout/MainLayout.razor]
+[C:/Users/PC/Desktop/BlazorAppDictionaryHash/Blazor/MyDictionaryWasmApp/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-t6itq39df5
 
-[C:/Users/PC/Desktop/Blazor/MyDictionaryWasmApp/Layout/NavMenu.razor]
+[C:/Users/PC/Desktop/BlazorAppDictionaryHash/Blazor/MyDictionaryWasmApp/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-g4446sedps
