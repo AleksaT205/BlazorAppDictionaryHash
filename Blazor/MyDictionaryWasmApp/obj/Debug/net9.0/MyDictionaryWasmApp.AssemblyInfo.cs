@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyDictionaryWasmApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22cb67fa5bd6654bbc4e1d52800a8798ace7947c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dc2875f30900552e577347a6c8b64163b1ef5ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyDictionaryWasmApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyDictionaryWasmApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
