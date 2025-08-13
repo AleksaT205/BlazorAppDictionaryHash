@@ -1302,8 +1302,6 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.8yp956aqto.wasm
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.i3z8u48pe5.pdb
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.tnyc7xpluy.wasm.gz
@@ -1509,8 +1507,6 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.8yp956aqto.wasm.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.i3z8u48pe5.pdb.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\MyDictionaryWasmApp.staticwebassets.runtime.json
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\MyDictionaryWasmApp.staticwebassets.endpoints.json
@@ -1934,7 +1930,6 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\tzxjg6is5z-n8rndlt7dy.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\0wz98yz2xy-ofbdodmtsc.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\qo14qi45zp-7rycenqwvh.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\36vdqth2fk-pf27izfbt2.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\ovlmtezz1s-bqjiyaj88i.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\9jsy0fxwoz-c2jlpeoesf.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\drauozjsek-erw9l3u2r3.gz
@@ -2187,9 +2182,6 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\nh6ch3pmls-tjcz0u77k5.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\msi8i8lmqd-tptq2av103.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\fbbbubrnzy-lfu7j35m59.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\ahz9ivqt4e-8yp956aqto.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\wz2xgvwhna-i3z8u48pe5.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\bfwscnfitb-2yq9qvy7ps.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\staticwebassets.development.json
@@ -2199,3 +2191,12 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\refint\MyDictionaryWasmApp.dll
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\MyDictionaryWasmApp.pdb
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\ref\MyDictionaryWasmApp.dll
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.v7cznqya6s.wasm
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.5d1e1wcze3.pdb
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.v7cznqya6s.wasm.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.5d1e1wcze3.pdb.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\36vdqth2fk-6agladmhdf.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\ahz9ivqt4e-v7cznqya6s.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\wz2xgvwhna-5d1e1wcze3.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\bfwscnfitb-vn71ll3591.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
