@@ -1,7 +1,6 @@
 wwwroot\css\app.css
 wwwroot\favicon.png
 wwwroot\icon-192.png
-wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -47,8 +46,8 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\sample-data\weather.json
+wwwroot\index.html
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\css\app.css
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\index.html
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -94,3 +93,4 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\l
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\sample-data\weather.json
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\wwwroot\index.html

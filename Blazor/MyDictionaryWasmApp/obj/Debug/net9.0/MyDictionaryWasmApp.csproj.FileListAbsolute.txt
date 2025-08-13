@@ -1930,7 +1930,6 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\tzxjg6is5z-n8rndlt7dy.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\0wz98yz2xy-ofbdodmtsc.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\qo14qi45zp-7rycenqwvh.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\36vdqth2fk-75ypp9cren.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\ovlmtezz1s-bqjiyaj88i.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\9jsy0fxwoz-c2jlpeoesf.gz
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\drauozjsek-erw9l3u2r3.gz
@@ -2192,10 +2191,11 @@ C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\refint\MyDictionaryWasmApp.dll
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\MyDictionaryWasmApp.pdb
 C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\ref\MyDictionaryWasmApp.dll
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.y0nsqiqrr1.wasm
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.mkiqxeuiq0.pdb
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.y0nsqiqrr1.wasm.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.mkiqxeuiq0.pdb.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\ahz9ivqt4e-y0nsqiqrr1.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\wz2xgvwhna-mkiqxeuiq0.gz
-C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\bfwscnfitb-1n3vsthodx.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.ompj0kd9yi.wasm
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.t5f11u8q5q.pdb
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.ompj0kd9yi.wasm.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\bin\Debug\net9.0\wwwroot\_framework\MyDictionaryWasmApp.t5f11u8q5q.pdb.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\36vdqth2fk-pf27izfbt2.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\ahz9ivqt4e-ompj0kd9yi.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\wz2xgvwhna-t5f11u8q5q.gz
+C:\Users\PC\Desktop\BlazorAppDictionaryHash\Blazor\MyDictionaryWasmApp\obj\Debug\net9.0\compressed\bfwscnfitb-mdihmkjomd.gz
