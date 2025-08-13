@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\data\\mysimpledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:data\\mysimpledictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\pages\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:pages\\dictionary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\data\\simplelistdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:data\\simplelistdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\.nuget\\packages\\mudblazor\\8.11.0\\staticwebassets\\MudBlazor.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\mydictionarywasmapp.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:mydictionarywasmapp.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|c:\\users\\pc\\desktop\\blazor\\mydictionarywasmapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{287FC284-EE12-D840-A678-C21492BA5D51}|MyDictionaryWasmApp.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dictionary.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Pages\\Dictionary.razor",
+              "RelativeDocumentMoniker": "Pages\\Dictionary.razor",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Pages\\Dictionary.razor",
+              "RelativeToolTip": "Pages\\Dictionary.razor",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAABgBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T10:43:33.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MySimpleDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Data\\MySimpleDictionary.cs",
+              "RelativeDocumentMoniker": "Data\\MySimpleDictionary.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Data\\MySimpleDictionary.cs",
+              "RelativeToolTip": "Data\\MySimpleDictionary.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwv1cAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:48:32.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-11T10:42:47.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T12:21:44.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T12:24:15.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SimpleListDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Data\\SimpleListDictionary.cs",
+              "RelativeDocumentMoniker": "Data\\SimpleListDictionary.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Data\\SimpleListDictionary.cs",
+              "RelativeToolTip": "Data\\SimpleListDictionary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:38:56.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T10:44:48.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T18:11:04.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T11:29:20.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MudBlazor.min.js",
+              "DocumentMoniker": "C:\\Users\\PC\\.nuget\\packages\\mudblazor\\8.11.0\\staticwebassets\\MudBlazor.min.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\mudblazor\\8.11.0\\staticwebassets\\MudBlazor.min.js",
+              "ToolTip": "C:\\Users\\PC\\.nuget\\packages\\mudblazor\\8.11.0\\staticwebassets\\MudBlazor.min.js",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\mudblazor\\8.11.0\\staticwebassets\\MudBlazor.min.js",
+              "ViewState": "AgIAAFcAAAAAAAAAAIAwwGIAAACmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-13T08:28:31.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyDictionaryWasmApp.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\MyDictionaryWasmApp.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "MyDictionaryWasmApp.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\MyDictionaryWasmApp.csproj.Backup.tmp",
+              "RelativeToolTip": "MyDictionaryWasmApp.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-12T23:33:55.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:21:53.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Blazor\\MyDictionaryWasmApp\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-11T11:32:39.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

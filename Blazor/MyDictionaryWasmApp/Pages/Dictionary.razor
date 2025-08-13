@@ -1,0 +1,328 @@
+﻿@page "/dictionary"
+@using MudBlazor
+@using MyDictionaryWasmApp.Data
+@using System.Diagnostics
+
+<MudPopoverProvider />
+
+<MudPaper Class="pa-4 mx-auto" Style="max-width:700px;">
+
+    <!-- Izbor hash metode -->
+    <MudText Typo="Typo.h6" Class="mb-2">Izaberi hash metodu:</MudText>
+    <MudRadioGroup T="HashMethod" @bind-Value="SelectedHashMethod">
+        <MudRadio T="HashMethod" Value="HashMethod.DefaultDotNet" Label="Default .NET" />
+        <MudRadio T="HashMethod" Value="HashMethod.Division" Label="Division" />
+        <MudRadio T="HashMethod" Value="HashMethod.MidSquare" Label="MidSquare" />
+        <MudRadio T="HashMethod" Value="HashMethod.Multiplication" Label="Multiplication" />
+        <MudRadio T="HashMethod" Value="HashMethod.Fibonacci" Label="Fibonacci" />
+    </MudRadioGroup>
+
+    <MudText Typo="Typo.body1" Class="mt-2">
+        Trenutno izabrana metoda: @SelectedHashMethod
+    </MudText>
+
+    <MudDivider Class="my-4" />
+
+    <!-- Unos key i value -->
+    <MudTextField @bind-Value="keyInput" Label="Key" Variant="Variant.Filled" />
+    <MudTextField @bind-Value="valueInput" Label="Value" Variant="Variant.Filled" Class="mt-2" />
+
+    <!-- Unos za broj generisanih unosa -->
+    <MudTextField @bind-Value="generateCountString" Label="Broj za generisanje" Variant="Variant.Filled" Class="mt-3" />
+
+    <!-- Dugmad za manipulaciju -->
+    <div class="mt-3">
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="AddEntry">Add</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="ClearAll" Class="ml-3">Clear</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="GenerateRandomData" Class="ml-3">Generate Random Data</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Info" OnClick="GenerateAndHashData" Class="ml-3">Generate & Hash Data</MudButton>
+    </div>
+
+    <!-- Prikaz unosa -->
+    <MudText Typo="Typo.h6" Class="mt-4">Entries (Count: @CurrentCount)</MudText>
+    <MudTable Items="CurrentEntries" Hover="true" Dense="true" Class="mt-2" Style="max-height:300px; overflow:auto;">
+        <HeaderContent>
+            <MudTh>Key</MudTh>
+            <MudTh>Value</MudTh>
+            <MudTh>Actions</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd>@context.Key</MudTd>
+            <MudTd>@context.Value</MudTd>
+            <MudTd>
+                <MudButton Color="Color.Error" Variant="Variant.Text" Size="Size.Small"
+                           OnClick="@(() => RemoveEntry(context.Key))">Remove</MudButton>
+            </MudTd>
+        </RowTemplate>
+    </MudTable>
+
+    <!-- Detalji bucket-a -->
+    <MudText Typo="Typo.h6" Class="mt-6">Hash Buckets Details</MudText>
+    <MudDataGrid T="(int BucketIndex, string Key, string Value)"
+                 Items="bucketDetails"
+                 Hover="true"
+                 Dense="true"
+                 Class="mt-2"
+                 Style="max-height:300px; overflow:auto;">
+        <Columns>
+            <PropertyColumn Property="@(x => x.BucketIndex)" Title="Bucket Index" />
+            <PropertyColumn Property="@(x => x.Key)" Title="Key" />
+            <PropertyColumn Property="@(x => x.Value)" Title="Value" />
+        </Columns>
+    </MudDataGrid>
+
+    <!-- Rezultati benchmark-a -->
+    <MudText Typo="Typo.h6" Class="mt-6">Benchmark Results</MudText>
+    <MudText Typo="Typo.body1" Style="white-space: pre-wrap;">@benchmarkResult</MudText>
+
+    <MudDivider Class="my-4" />
+
+    <!-- Pretraga i provere -->
+    <MudText Typo="Typo.h6">Pretraga i provere</MudText>
+    <MudTextField @bind-Value="searchKey" Label="Key za pretragu" Variant="Variant.Filled" Class="mt-2" />
+    <MudTextField @bind-Value="searchValue" Label="Value za proveru" Variant="Variant.Filled" Class="mt-2" />
+
+    <div class="mt-2">
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="SearchByKey">Dohvati po ključu</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Secondary" OnClick="CheckKey" Class="ml-2">Proveri ključ</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Info" OnClick="CheckValue" Class="ml-2">Proveri vrednost</MudButton>
+    </div>
+    <MudText Typo="Typo.body2" Class="mt-2" Style="color:#3f53ab;">
+        @searchResult
+    </MudText>
+
+</MudPaper>
+
+@code {
+    private HashMethod selectedHashMethod = HashMethod.DefaultDotNet;
+    private HashMethod SelectedHashMethod
+    {
+        get => selectedHashMethod;
+        set
+        {
+            if (selectedHashMethod != value)
+            {
+                selectedHashMethod = value;
+                RecreateDictionaryWithNewHashMethod();
+            }
+        }
+    }
+
+    private MySimpleDictionary<string, string> myHashDict;
+    private List<(int BucketIndex, string Key, string Value)> bucketDetails = new();
+    private string benchmarkResult = "";
+
+    private string keyInput = "";
+    private string valueInput = "";
+    private string generateCountString = "1000";
+
+    private string searchKey = "";
+    private string searchValue = "";
+    private string searchResult = "";
+
+    private IEnumerable<KeyValuePair<string, string>> CurrentEntries => myHashDict;
+    private int CurrentCount => myHashDict?.Count ?? 0;
+
+    protected override void OnInitialized()
+    {
+        myHashDict = new MySimpleDictionary<string, string>();
+        myHashDict.CurrentHashMethod = SelectedHashMethod;
+    }
+
+    private void RecreateDictionaryWithNewHashMethod()
+    {
+        var oldEntries = myHashDict.ToList();
+        myHashDict = new MySimpleDictionary<string, string> { CurrentHashMethod = selectedHashMethod };
+
+        foreach (var kv in oldEntries)
+        {
+            try { myHashDict.Add(kv.Key, kv.Value); } catch { }
+        }
+
+        UpdateBucketDetails();
+        _ = RunBenchmark();
+        StateHasChanged();
+    }
+
+    private void UpdateBucketDetails()
+    {
+        bucketDetails.Clear();
+        foreach (var detail in myHashDict.GetBucketsDetails())
+        {
+            bucketDetails.Add((detail.BucketIndex, detail.Key, detail.Value));
+        }
+    }
+
+    private async Task RunBenchmark()
+    {
+        if (myHashDict == null || myHashDict.Count == 0)
+        {
+            benchmarkResult = "Nema podataka za benchmark.";
+            await InvokeAsync(StateHasChanged);
+            return;
+        }
+
+        var watch = Stopwatch.StartNew();
+        var bucketCounts = new Dictionary<int, int>();
+        foreach (var (bucketIndex, _, _) in myHashDict.GetBucketsDetails())
+        {
+            if (bucketCounts.ContainsKey(bucketIndex))
+                bucketCounts[bucketIndex]++;
+            else
+                bucketCounts[bucketIndex] = 1;
+        }
+        watch.Stop();
+
+        int min = bucketCounts.Count > 0 ? bucketCounts.Values.Min() : 0;
+        int max = bucketCounts.Count > 0 ? bucketCounts.Values.Max() : 0;
+        double avg = bucketCounts.Count > 0 ? bucketCounts.Values.Average() : 0;
+        int collisions = bucketCounts.Values.Sum(c => c > 1 ? c - 1 : 0);
+
+        benchmarkResult =
+            $"Benchmark za {myHashDict.Count} unosa koristeći {SelectedHashMethod}.\n" +
+            $"Vreme izračunavanja: {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)\n" +
+            $"Buckets min/avg/max: {min}/{avg:F2}/{max}\n" +
+            $"Broj kolizija (više od 1 ključa po bucketu): {collisions}";
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task AddEntry()
+    {
+        if (string.IsNullOrWhiteSpace(keyInput)) return;
+
+        var watch = Stopwatch.StartNew();
+        try { myHashDict.Add(keyInput, valueInput); }
+        catch { benchmarkResult = $"Key '{keyInput}' već postoji!"; await InvokeAsync(StateHasChanged); return; }
+        watch.Stop();
+
+        benchmarkResult = $"Add operation took {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)";
+        keyInput = ""; valueInput = "";
+
+        UpdateBucketDetails();
+        await RunBenchmark();
+    }
+
+    private async Task RemoveEntry(string key)
+    {
+        var watch = Stopwatch.StartNew();
+        bool removed = myHashDict.Remove(key);
+        watch.Stop();
+
+        benchmarkResult = removed
+            ? $"Remove operation took {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)"
+            : $"Key '{key}' nije pronađen.";
+
+        UpdateBucketDetails();
+        await RunBenchmark();
+    }
+
+    private async Task ClearAll()
+    {
+        var watch = Stopwatch.StartNew();
+        myHashDict.Clear();
+        watch.Stop();
+
+        benchmarkResult = $"Clear operation took {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)";
+        bucketDetails.Clear();
+        await InvokeAsync(StateHasChanged);
+        await RunBenchmark();
+    }
+
+    private async Task GenerateRandomData()
+    {
+        if (!int.TryParse(generateCountString, out int count) || count <= 0)
+        {
+            benchmarkResult = "Unesite validan pozitivan broj za generisanje podataka.";
+            await InvokeAsync(StateHasChanged);
+            return;
+        }
+
+        if (myHashDict.Count > 0)
+        {
+            benchmarkResult = "Podaci već postoje, prvo ih obrišite klikom na Clear.";
+            await InvokeAsync(StateHasChanged);
+            return;
+        }
+
+        var watch = Stopwatch.StartNew();
+        var rnd = new Random();
+        for (int i = 0; i < count; i++)
+        {
+            string key = i.ToString();
+            string value = $"value{rnd.Next(10000)}";
+            myHashDict.Add(key, value);
+        }
+        watch.Stop();
+
+        benchmarkResult = $"Generisano {count} unosa u {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)";
+        UpdateBucketDetails();
+        await RunBenchmark();
+    }
+
+    private async Task GenerateAndHashData()
+    {
+        if (myHashDict.Count == 0)
+        {
+            benchmarkResult = "Nema podataka za hashiranje. Prvo generišite podatke.";
+            await InvokeAsync(StateHasChanged);
+            return;
+        }
+
+        var watch = Stopwatch.StartNew();
+        var allEntries = myHashDict.ToList();
+        myHashDict.Clear();
+        myHashDict.CurrentHashMethod = SelectedHashMethod;
+        foreach (var kv in allEntries) myHashDict.Add(kv.Key, kv.Value);
+        watch.Stop();
+
+        UpdateBucketDetails();
+        await RunBenchmark();
+    }
+
+    private void SearchByKey()
+    {
+        if (string.IsNullOrWhiteSpace(searchKey)) { searchResult = "Unesite ključ za pretragu."; return; }
+
+        var watch = Stopwatch.StartNew();
+        if (myHashDict.TryGetValue(searchKey, out var value))
+        {
+            watch.Stop();
+            searchResult = $"Ključ '{searchKey}' ima vrednost: '{value}'\n" +
+                           $"Vreme traženja: {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)";
+        }
+        else
+        {
+            watch.Stop();
+            searchResult = $"Ključ '{searchKey}' nije pronađen.\n" +
+                           $"Vreme traženja: {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)";
+        }
+    }
+
+    private void CheckKey()
+    {
+        if (string.IsNullOrWhiteSpace(searchKey)) { searchResult = "Unesite ključ za proveru."; return; }
+
+        var watch = Stopwatch.StartNew();
+        bool exists = myHashDict.ContainsKey(searchKey);
+        watch.Stop();
+
+        searchResult = exists
+            ? $"Ključ '{searchKey}' postoji u rečniku.\n Vreme traženja: {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)"
+            : $"Ključ '{searchKey}' ne postoji.\n Vreme traženja: {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)";
+    }
+
+    private void CheckValue()
+    {
+        if (string.IsNullOrWhiteSpace(searchValue)) { searchResult = "Unesite vrednost za proveru."; return; }
+
+        var watch = Stopwatch.StartNew();
+        bool exists = myHashDict.ContainsValue(searchValue);
+        watch.Stop();
+
+        searchResult = exists
+            ? $"Vrednost '{searchValue}' postoji u rečniku.\n Vreme traženja: {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)"
+            : $"Vrednost '{searchValue}' ne postoji.\n Vreme traženja: {watch.ElapsedTicks} ticks ({watch.ElapsedMilliseconds} ms)";
+    }
+}
+

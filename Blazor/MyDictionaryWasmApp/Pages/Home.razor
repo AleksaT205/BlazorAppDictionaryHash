@@ -1,0 +1,77 @@
+﻿@page "/"
+
+<div style="
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+    line-height: 1.6;
+">
+
+    <!-- Naslov -->
+    <MudText Typo="Typo.h1" Align="Align.Left" Style="
+        font-weight: 900;
+        letter-spacing: 0.13em;
+        color: #3f53ab;
+        margin-bottom: 2rem;
+        user-select: none;
+        font-size: 1.6rem;
+    ">
+        Dobrodošli u aplikaciju za rad sa Dictionary (Rečnicima)!
+    </MudText>
+
+    <MudDivider Style="border-color: rgba(63, 83, 171, 0.3);" Class="mb-8" />
+
+    <MudText Typo="Typo.body1" Align="Align.Left" Style="
+        font-weight: 500;
+        color: #444;
+        margin-bottom: 3rem;
+        white-space: pre-line;
+        font-size: 1.15rem;
+        padding: 0.5rem;
+        max-width: 780px;
+    ">
+        Ova aplikacija omogućava interaktivno istraživanje <b style="color:#3f53ab;">hash tabela</b> kroz <b>MySimpleDictionary</b>.
+        Možete:
+        <ul style="margin-left: 1.5rem; color: #333;">
+            <li>Dodavati, brisati i pretraživati ključeve i vrednosti</li>
+            <li>Generisati random podatke</li>
+            <li>Menjati hash algoritme i videti raspodelu unosa po bucket-ima</li>
+            <li>Pratiti performanse i kolizije za svaki unos</li>
+        </ul>
+    </MudText>
+
+    <!-- Algoritmi -->
+    <MudText Typo="Typo.h5" Align="Align.Left" Style="
+        font-weight: 700;
+        color: #3f53ab;
+        margin-bottom: 1rem;
+    ">
+        Podržani hash algoritmi:
+    </MudText>
+
+    <MudText Typo="Typo.body1" Align="Align.Left" Style="color:#555; font-size:1rem; margin-bottom:2rem;">
+        <ul style="margin-left: 1.5rem;">
+            <li><b>Default .NET:</b> koristi ugrađeni GetHashCode() metod.</li>
+            <li><b>Division:</b> h(k) = k mod M — prost broj M za ravnomernu raspodelu.</li>
+            <li><b>MidSquare:</b> kvadrira ključ i koristi srednje bitove za indeks.</li>
+            <li><b>Multiplication:</b> množi ključ sa konstantom (zlatni rez) i uzima decimalni deo.</li>
+            <li><b>Fibonacci:</b> množenje konstantom zasnovano na zlatnom rez broju, brzo i ravnomerno rasipa ključeve.</li>
+        </ul>
+    </MudText>
+
+    <MudDivider Style="border-color: rgba(63, 83, 171, 0.2);" Class="mb-6" />
+
+    <MudText Typo="Typo.body1" Align="Align.Left" Style="
+        font-weight: 500;
+        color: #444;
+        font-size: 1.1rem;
+    ">
+        Istražujte, eksperimentisite sa različitim ključevima i algoritmima i pratite kako hash tabela radi u realnom vremenu!
+    </MudText>
+
+</div>
+
+
