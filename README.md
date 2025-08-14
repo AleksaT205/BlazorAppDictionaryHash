@@ -61,6 +61,9 @@ wwwroot/ – Statički fajlovi aplikacije
 Nakon generisanja 1.000 unosa i odabira Multiplication hash metode, rezultati mogu izgledati ovako:
 
 Benchmark za 1000 unosa koristeći Multiplication.
+
 Vreme izračunavanja: 15792 ticks (1 ms)
+
 Buckets min/avg/max: 0/1.05/4
+
 Broj kolizija (više od 1 ključa po bucketu): 47
