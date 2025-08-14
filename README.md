@@ -49,8 +49,11 @@ Omogućava unos podataka, generisanje slučajnih vrednosti, pregled strukture ha
 **📂 Struktura koda**
 
 Data/MySimpleDictionary.cs – Implementacija rečnika i hash funkcija
+
 Pages/Dictionary.razor – Glavna stranica sa UI logikom i povezivanjem sa rečnikom
+
 Layout/ MainLayout.razor i NavManu.razor za prikaz hedera i odabir stranica
+
 wwwroot/ – Statički fajlovi aplikacije
 
 **📊 Benchmark primer**
