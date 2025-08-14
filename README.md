@@ -1,5 +1,6 @@
 **📚 Blazor Hash Dictionary App**
 *Blazor WebAssembly aplikacija* za rad, testiranje i benchmark različitih hash metoda u sopstvenoj implementaciji rečnika sa bucket-ima i kolizijama.
+
 Omogućava unos podataka, generisanje slučajnih vrednosti, pregled strukture hash tablice i merenje performansi.
 
 **✨ Funkcionalnosti**
